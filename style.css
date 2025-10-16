@@ -1,0 +1,119 @@
+:root {
+	--bg: #fce0b2;
+	--ink: #1b1917;
+	--accent: #5b3a29;
+	--sep: rgba(0, 0, 0, 0.08);
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background: var(--bg);
+	color: var(--ink);
+	font-family: "Georgia", "Times New Roman", serif;
+	line-height: 1.6;
+}
+
+.page {
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 48px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.18));
+	box-shadow: 0 6px 30px rgba(15, 15, 15, 0.12);
+	border-radius: 8px;
+	border: 1px solid var(--sep);
+}
+
+header {
+	border-bottom: 1px solid var(--sep);
+	padding-bottom: 18px;
+	margin-bottom: 22px;
+}
+
+h1 {
+	font-family: "Goudy Old Style", "Georgia", serif;
+	font-size: 36px;
+	margin: 0;
+	color: var(--accent);
+	letter-spacing: 1px;
+    text-align: center;
+}
+
+h2 {
+	font-size: 22px;
+	margin-top: 18px;
+	color: var(--accent);
+    text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	margin-top: 14px;
+	color: var(--accent);
+	font-style: italic;
+    text-align: center;
+}
+
+h4 {
+    color: var(--accent);
+    text-align: center;
+}
+
+p {
+	margin: 12px 0;
+    text-align: justify;
+}
+
+.epigraph {
+	font-style: italic;
+	color: #4b3b36;
+	margin: 8px 0 20px;
+}
+
+blockquote {
+	margin: 18px 24px;
+	padding: 12px 16px;
+	border-left: 4px solid var(--accent);
+	background: rgba(91, 58, 41, 0.03);
+}
+
+nav.toc {
+	margin: 18px 0 28px;
+	padding: 12px;
+	border: 1px dashed var(--sep);
+	background: rgba(255, 255, 255, 0.45);
+}
+
+nav.toc ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+footer {
+	border-top: 1px solid var(--sep);
+	padding-top: 14px;
+	margin-top: 26px;
+	color: #5a4a44;
+	font-size: 14px;
+}
+
+pre.source {
+	white-space: pre-wrap;
+	font-family: monospace;
+	background: #fff7ed;
+	padding: 12px;
+	border-radius: 6px;
+	border: 1px solid var(--sep);
+}
+
+@media (max-width:640px) {
+	.page {
+		margin: 18px;
+		padding: 20px
+	}
+
+	h1 {
+		font-size: 28px
+	}
+}
