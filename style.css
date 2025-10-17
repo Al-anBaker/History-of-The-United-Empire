@@ -4,7 +4,7 @@
 	--accent: #5b3a29;
 	--sep: rgba(0, 0, 0, 0.08);
 }
-#characters,#home {
+#characters, #home {
 	display: block;
 	text-decoration: none;
 	background-color: var(--bg);
@@ -15,7 +15,7 @@
 	border: 1px;
 	border-radius: 5%;
 }
-#characters:hover,#home:hover {
+#characters:hover, #home:hover {
 	transition-duration: 100ms;
 	background-color: #fff7ed;
 	color: #1b1917;
