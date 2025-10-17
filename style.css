@@ -65,6 +65,11 @@ p {
     text-align: justify;
 }
 
+strong {
+	text-decoration: none;
+	text-emphasis:unset;
+}
+
 .epigraph {
 	font-style: italic;
 	color: #4b3b36;
