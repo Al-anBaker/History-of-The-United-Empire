@@ -28,6 +28,7 @@
 	padding: 10px;
 	border-radius: 5%;
 	border: 1px dashed var(--sep);
+	margin: 18px 0 28px;
 }
 
 html,
