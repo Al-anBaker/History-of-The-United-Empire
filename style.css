@@ -150,3 +150,7 @@ pre.source {
 		font-size: 28px
 	}
 }
+
+.Buttons {
+	flex: auto;
+}
